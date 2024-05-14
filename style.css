@@ -35,4 +35,27 @@ h1-custom{
   
 }
 
+footer{
+  background-color: #26282b;
+}
+
+.SocialMedia{
+  background-color: #4E7A69;
+}
+
+.Copyright{
+  background-color: #18191a;
+  opacity: 80%;
+}
+
+.custom-hr {
+  width: 60px;
+  background-color: #4E7A69;
+  height: 2px;
+}
+
+.title{
+  text-transform:uppercase;
+  font-weight: bold;
+}
 
