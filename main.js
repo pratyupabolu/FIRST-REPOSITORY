@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.querySelector("#linkCreateAccount").addEventListener("click", e => {
         e.preventDefault();
         loginForm.classList.add("form--hidden");
-        createAccountForm.classList.remove("form");
+        createAccountForm.classList.remove("form--hidden");
     });
     document.querySelector("#linkLogin").addEventListener("click", e => {
         e.preventDefault();
