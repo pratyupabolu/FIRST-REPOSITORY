@@ -7,7 +7,7 @@ function loadSignup(){
 //code for login /signup form
 function setFormMessage(formElement, type, message) 
 {
-    const messageElement = formElement.querySelector(".form__message")
+    const messageElement = formElement.querySelector(".form__message");
     messageElement.textContent = message;
     messageElement.classList.remove("form_message--success", "form_message--error");
     messageElement.classList.add("form__message--$(type)");
